@@ -3,7 +3,6 @@ package com.dhl.blockdetectui_java;
 import android.app.Application;
 import android.content.Context;
 
-import com.github.moduth.blockcanary.BlockCanary;
 
 
 public class App extends Application {
@@ -12,7 +11,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         sContext = this;
-        BlockDetectByPrinter.start2();
+        BlockDetectByPrinter.start();
        //BlockCanary.install(this, new AppContext()).start();
     }
     public static Context getAppContext() {

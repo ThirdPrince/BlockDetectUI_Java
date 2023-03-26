@@ -5,6 +5,10 @@ import android.util.Log;
 import android.util.Printer;
 import android.view.Choreographer;
 
+/**
+ * 检测 BlockUi 外部包装类
+ * @author dhl
+ */
 public class BlockDetectByPrinter {
 
     public static void start(){

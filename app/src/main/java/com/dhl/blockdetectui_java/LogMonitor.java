@@ -8,6 +8,10 @@ import android.util.Log;
 
 import androidx.annotation.RequiresApi;
 
+/**
+ * 检测卡顿的地方
+ * @author dhl 
+ */
 public class LogMonitor {
 
     private static final String TAG = "LogMonitor";
