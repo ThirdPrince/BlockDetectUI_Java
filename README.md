@@ -7,7 +7,9 @@
 ## 两种检测方式
 
 1，利用UI线程Looper打印的日志 2，利用Choreographer
-'''
+
+loop 日志如下
+```
 final Printer logging = me.mLogging; if (logging != null) { logging.println(">>>>> Dispatching to "
 + msg.target + " "
 
@@ -35,6 +37,7 @@ final Printer logging = me.mLogging; if (logging != null) { logging.println(">>>
             logging.println("<<<<< Finished to " + msg.target + " " + msg.callback);
         }
 
-'''
+```
+
 
 BlockDetectUI_Java 我们的卡顿的原因就在于没有办法在16ms完成该完成的操作。 监控UI卡顿
