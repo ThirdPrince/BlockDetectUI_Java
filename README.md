@@ -1,3 +1,4 @@
 # BlockDetectUI_Java
 BlockDetectUI_Java
+我们的卡顿的原因就在于没有办法在16ms完成该完成的操作。
 监控UI卡顿
